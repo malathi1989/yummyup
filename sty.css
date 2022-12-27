@@ -1,0 +1,68 @@
+
+body
+{
+
+	background-image: url("bg.png") ;
+	background-size: cover;
+
+}
+
+h1
+{
+
+	text-shadow: 1px 1px white ;
+
+}
+
+ul.menu li
+{
+
+	display: inline-block;
+	padding: 15px 70px;
+	
+}
+
+ul.menu
+{
+
+	padding-left: 0px;
+	background-color: skyblue;
+	border: solid;
+	text-align: center;
+}
+
+ul.menu li:hover
+{
+	background-color: lightgreen;
+}
+
+ul.menu li a
+{
+   color: darkred;
+   font-weight: bolder;
+   text-decoration: none;
+
+}
+.blink
+{
+	animation:blinker 3s linear infinite;
+	padding: 0px 90px;
+}
+@keyframes blinker
+{
+	50%{
+		opacity: 0;
+	}
+}
+
+ul.row li
+{
+	display:inline-block;
+   
+}
+
+.yummy
+{
+  padding: 0px 295px;
+
+}
