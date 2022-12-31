@@ -14,29 +14,28 @@ h1
 
 }
 
-ul.menu li
+.menu div
 {
 
 	display: inline-block;
-	padding: 15px 70px;
+	padding:25px 0px;
 	
 }
 
-ul.menu
+.menu
 {
 
-	padding-left: 0px;
 	background-color: skyblue;
 	border: solid;
 	text-align: center;
 }
 
-ul.menu li:hover
+.menu div:hover
 {
 	background-color: lightgreen;
 }
 
-ul.menu li a
+.menu div a
 {
    color: darkred;
    font-weight: bolder;
