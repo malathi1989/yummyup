@@ -45,8 +45,8 @@ ul.menu li a
 }
 .blink
 {
-	animation:blinker 3s linear infinite;
-	padding: 0px 90px;
+	animation:blinker 3s linear infinite;		
+	
 }
 @keyframes blinker
 {
@@ -55,14 +55,7 @@ ul.menu li a
 	}
 }
 
-ul.row li
+.row div
 {
 	display:inline-block;
-   
-}
-
-.yummy
-{
-  padding: 0px 295px;
-
 }
